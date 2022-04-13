@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     background-color: black;
+    color: wheat;
 }
 .hero{
     position: relative;
@@ -92,13 +93,13 @@ nav{
     .field{
         width: 45%;
         padding: 0.5rem 1rem;
-        outline: none;
+        /* outline: none;
         border: 2px solid rgba(7, 7, 7, 0);
         background-color: rgb(0, 0, 0 0,0.5rem);
         font-size: 1.1rem;
         margin-bottom: 22px;
-        transition: .3s;
-        z-index: 1;
+        transition: .3s; */
+        
     }
     
     .field:hover{
@@ -181,9 +182,19 @@ nav{
         
             border: 1px solid wheat;
         }
-
-        
-
+input, .btn, .field, label{
+    display: block;
+    padding: 1em;
+    margin: 1em auto ;
+   
+}
+label{
+    text-align: center;
+}
+  .right{
+      border: 1px solid wheat;
+      margin: 0.1em 0.2em;
+  }
         
 
 
