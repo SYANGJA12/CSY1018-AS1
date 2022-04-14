@@ -62,5 +62,17 @@ nav{
     #clicked:target .off{display: block;}
     
     #clicked:target nav {display: block;}
+    footer {
+        background-color:darkgreen;
+        color: brown;
+        text-align: center;
+        
+    }
+    footer.img{
+        text-align: center;
+        color: brown;
+        column-gap: 0.1em;
+    }
+    
     
     
